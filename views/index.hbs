@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Production House</title>
+    <link rel="stylesheet" href="/styles.css">
+     <link rel="stylesheet" href="/stylescontact.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+             <img src="travel.png" alt="Production House Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                    <li><a href="register">Register</a></li>
+                    <li><a href="login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Production House</h1>
+            <p>Bringing Your Vision to Life</p>
+            <a href="#" class="btn">Register</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Video Production</h3>
+                <p>High-quality video production for various needs.</p>
+            </div>
+            <div class="service">
+                <h3>Photography</h3>
+                <p>Professional photography services for any occasion.</p>
+            </div>
+            <div class="service">
+                <h3>Post Production</h3>
+                <p>Editing and special effects to enhance your content.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of passionate creatives dedicated to producing high-quality visual content.</p>
+        </div>
+    </section>
+
+     <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="/contact" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+    </footer>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
